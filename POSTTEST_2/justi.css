@@ -1,0 +1,89 @@
+* ,html{
+    margin: 0;
+    padding: 0;
+}
+
+.container-navbar{
+    background-color: aqua;
+    width: 100%;
+    height: 5vh;
+}
+.ul-navbar{
+    background-color: red;
+    display: flex;
+    height: 5vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.li-navbar{
+    list-style-type: none;
+    padding: 7px;
+    color: white;
+    margin: 5px;
+    font-size: 20px;  
+}
+
+.li-navbar:hover{
+    background-color: rgb(10, 3, 0);
+    border-radius: 5px;
+    transition: 0.3s ease-in-out;
+    transition-delay: 0.1s;
+}
+
+.navbar{
+    color: white;
+    text-decoration: none;
+}
+@keyframes fadeIn {
+    0% {
+        opacity: 0; 
+    }
+    100% {
+        opacity: 1; 
+    }
+}
+
+
+@keyframes slideInRight {
+    0% {
+        opacity: 1;
+        transform: translateX(100%); 
+    }
+    100% {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+.justify{
+    text-align: justify;
+    margin: 20px;
+    font-family: Arial,sans-serif;
+    font-size: 18px;
+    padding-right: 60vh;
+    margin-top: 5vh;
+    animation: fadeIn 1s ease-in-out forwards;
+}
+
+.prasmanan {
+    position: absolute;
+    top: 100px;
+    right: 0;
+    width: 400px;
+    height: 10vh;
+    z-index: 10;
+    animation: slideInRight 1s ease-in-out; 
+}
+
+.steak {
+    position: absolute;
+    top: 450px;
+    right: 100px;
+    height: 10vh;
+    z-index: 10;
+    animation: slideInRight 1s ease-in-out; 
+}
+
+
+
