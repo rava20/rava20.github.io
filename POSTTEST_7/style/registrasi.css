@@ -1,0 +1,101 @@
+/* Umum untuk body */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f7f7f7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+/* Kartu login utama */
+.login-card {
+    background-color: white;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    width: 400px;
+    text-align: center;
+}
+
+hgroup {
+    margin-bottom: 30px;
+}
+
+.login-title {
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.login-description {
+    color: #666;
+    font-size: 14px;
+}
+
+.login-form-container {
+    text-align: left;
+}
+
+.login-form-group {
+    margin-bottom: 20px;
+}
+
+.login-form-title {
+    margin-bottom: 5px;
+    font-weight: bold;
+    display: block;
+}
+
+.login-form-input {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    font-size: 16px;
+}
+
+.login-form-input:focus {
+    outline: none;
+    border-color: #12a401;
+    box-shadow: 0 0 5px rgba(52, 152, 219, 0.5);
+}
+
+select.login-form-input {
+    appearance: none;
+    background-color: white;
+    cursor: pointer;
+}
+
+.login-button {
+    background-color: #12a401;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+    font-size: 16px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.login-button:hover {
+    background-color: #12a401;
+}
+
+p {
+    margin-top: 20px;
+    font-size: 14px;
+    color: #333;
+}
+
+p a {
+    color: #3498db;
+    text-decoration: none;
+}
+
+p a:hover {
+    text-decoration: underline;
+}
